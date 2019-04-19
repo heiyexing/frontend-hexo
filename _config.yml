@@ -79,3 +79,16 @@ theme: lite
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    # use: live2d-widget-model-tororo  #模板目录，在node_modules里
+    use: live2d-widget-model-hijiki  #模板目录，在node_modules里
+  display:
+    position: right
+    width: 300 
+    height: 600
+  mobile:
+    show: false  #是否在手机进行显示
